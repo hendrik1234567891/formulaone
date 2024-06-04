@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+#AKTUALISIERN
 # Learn more: https://github.com/kennethreitz/setup.py
 
 from setuptools import setup, find_packages
@@ -12,13 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='formulaone',
+    name='loaddynamo',
     version='0.1.0',
     description='Downloads and prepares formula one data',
     long_description=readme,
-    author='Timo Schuerg',
-    author_email='t.schuerg@th-bingen.de',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Hendrik Gressmann',
+    author_email='hendrik.gressmann@stud.h-da.de',
+    url='pozdeji',#!!!!!!!!!!!!!!!
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
